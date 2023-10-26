@@ -1,0 +1,75 @@
+Objetivo / Intenção
+
+	Definir uma família de algoritmos, encapsular cada um, e fazê-los intercambiáveis, ele permite que algoritmos variem independentemente entre clientes que os utilizam.
+
+Também conhecido como: 
+	
+	Policy
+
+Motivação
+
+	Quando se necessita de um algoritmo que trata de modos diferentes os dados submetidos a ele.	
+	
+Ex:
+
+//Código da interface do imposto
+	public interface IImposto {
+
+		decimal CalcularImposto(decimal valor);
+
+	}
+
+//Classe Nota fiscal
+public class NotaFiscal {
+
+	public IImposto Imposto { get; set; }
+
+	 
+
+		 public decimal CalcularImposto(decimal valor) {
+
+				return Imposto.CalcularImposto(valor);
+
+		 }
+
+	}
+}
+
+
+//Classe concreta Imposto São Paulo
+public class ImpostoSaoPaulo:IImposto {
+
+public decimal CalcularImposto(decimal valor) {
+
+        return valor * 1.2M;
+
+    }
+
+}
+
+ 
+
+//Classe concreta Imposto Rio de Janeiro
+public   class ImpostoRio: IImposto {
+
+	public decimal CalcularImposto(decimal valor) {
+            return valor * 1.2M;
+
+    }
+}
+
+
+//Código responsável pela chamada da nota fiscal
+public class TestesImpostos {
+
+    public static void main(String[] args) {
+
+        NotaFiscal notaFiscalDP = new NotaFiscal();
+		IImposto imposto = new ImpostoSaoPaulo();
+		notaFiscalDP.Imposto = imposto;
+		notaFiscalDP.CalcularImposto(55M);
+    }
+}
+
+Com o padrão strategy, quando houver algum tipo de mudança no formato do calculo fiscal, não precisamos fazer nenhuma alteração na classe NotaFiscal, é só criarmos uma nova classe, implementar a interface IImposto e na variável imposto, 
+da classe NotaFiscal passar a nova classe, que a NotaFiscal fará o calculo da mesma.
