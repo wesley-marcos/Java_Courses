@@ -1,0 +1,62 @@
+================================== Design Patterns II =====================================================
+
+1) Adapter {
+	
+	- O padrão Adapter é muito utilizado quando precisamos encaixar uma nova biblioteca de classes, adquirida de um fornecedor, em um sistema de software já existente, porém essas bibliotecas de classe do novo fornecedor são diferentes das bibliotecas de 
+	classes do fornecedor antigo. 
+
+	- Como não temos o código do novo fornecedor e também não podemos alterá-la, o que pode ser feito é criar uma classe que faça essa adaptação, ou seja, ela é responsável por adaptar a interface do novo fornecedor ao formato que o sistema espera. 
+	- O Adapter é muito utilizado para compatibilizar o seu sistema a outros frameworks ou APIs.
+	- Portanto, o adaptador é um intermediador que recebe solicitações do cliente e converte essas solicitações num formato que o fornecedor entenda. O adaptador converte uma interface para outra, porém, também poderíamos ter um caso em que 
+	  precisaríamos adaptar mais de uma classe, nesse caso entra em cena outro padrão de projeto chamado Facade (Fachada) que é discutido em outro artigo. Se a interface do fornecedor mudar novamente apenas o Adaptador necessitará ser modificado 
+	  sem alterar o resto do sistema.
+
+	- A definição oficial do padrão Adapter é: “O Padrão Adapter converte uma interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis trabalhem juntas”.
+	
+	Vantagens de Usar o Padrão Adapter
+	
+	- O Padrão Adapter possui diversas boas práticas de programação orientada a objetos como o uso da composição de objetos, vinculação do cliente a uma interface e não a uma implementação e flexibilidade com o uso de diversos adaptadores.
+	
+	EXEMPLO:
+	
+	public class TomadaDeDoisPinos {
+		public void ligarNaTomadaDeDoisPinos() {
+			System.out.println("Ligado na Tomada de Dois Pinos");
+		}
+	}
+
+	public class TomadaDeTresPinos {
+		public void ligarNaTomadaDeTresPinos() {
+			System.out.println("Ligado na Tomada de Tres Pinos");
+		}
+	}
+
+	public class AdapterTomada extends TomadaDeDoisPinos {
+		private TomadaDeTresPinos tomadaDeTresPinos;
+
+		public AdapterTomada(TomadaDeTresPinos tomadaDeTresPinos) {
+			this.tomadaDeTresPinos = tomadaDeTresPinos;
+		}
+
+		public void ligarNaTomadaDeDoisPinos() {
+			tomadaDeTresPinos.ligarNaTomadaDeTresPinos();
+		}
+	}
+	
+	public class Teste {
+
+		public static void main(String args[]) {
+			TomadaDeTresPinos t3 = new TomadaDeTresPinos();
+			
+			AdapterTomada a = new AdapterTomada(t3);
+			a.ligarNaTomadaDeDoisPinos();
+		}
+
+	}
+	
+	CONCLUSÃO:
+	
+	- O Padrão Adapter é utilizado quando temos uma classe existente cuja interface não é adequada para as suas necessidades. Além disso, o adaptador consegue mudar a interface de um fornecedor para uma interface que o cliente espera encontrar. 
+	- O Adapter é um padrão que utiliza boas praticas de orientação a objetos e a sua implementação fica mais complexa de acordo com a complexidade da interface do fornecedor.
+}
+
