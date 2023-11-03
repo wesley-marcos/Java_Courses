@@ -1,0 +1,3 @@
+ANNOTATIONS
+
+@RestController = define que a classe é uma controladora Rest
