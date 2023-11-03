@@ -1,3 +1,19 @@
-ANNOTATIONS
+===================================== ANNOTATIONS =============================================
 
 @RestController = define que a classe é uma controladora Rest
+@RequestMapping = define qual a URL que o controlador vai responder (endpoint)
+@GetMapping = define que o método será do tipo GET
+@PostMapping = define que o método será do tipo POST
+@RequestBody = define que a variável a seguir é o corpo da requisição
+
+
+===================================== CONCEITOS ===============================================
+=====> DTO (Data Transfer Object)
+	 	Padrão utilizado para transferências REST.
+	
+=====> Record
+		É um recurso que permite representar uma classe imutável, contendo apenas atributos, 
+	construtor e métodos de leitura, de uma maneira muito simples e enxuta. Esse tipo de 
+	classe se encaixa perfeitamente para representar classes DTO, já que seu objetivo é 
+	apenas representar dados que serão recebidos ou devolvidos pela API, sem nenhum tipo 
+	de comportamento.
