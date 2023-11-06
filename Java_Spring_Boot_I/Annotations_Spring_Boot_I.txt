@@ -5,6 +5,18 @@
 @GetMapping = define que o método será do tipo GET
 @PostMapping = define que o método será do tipo POST
 @RequestBody = define que a variável a seguir é o corpo da requisição
+@Autowired = usado para fazer a injeção de dependências
+@Getter = usado para criar os getters (em tempo de compilação)
+@NoArgsConstructor = usado para criar o construtor básico, necessário para o JPA 
+	(sem argumentos)
+@AllArgsConstructor = usado para criar o construtor básico, necessário para o JPA 
+	(com argumentos)
+@EqualsAndHashCode(of = "id") = cria HashCode para a variável 'id'
+@Transactional = usado quando tem escrita
+@NotBlank = verifica se não é nulo nem vazio, usados apenas em String.
+@Valid = indica que o objeto referenciado nessa classe (que vem de outra) também deverá
+	ser checado. Também é colocado no método que chama o DTO.
+@Pattern(regexp = "REGEX AQUI") => usado para definir uma regex específica
 
 
 ===================================== CONCEITOS ===============================================
@@ -17,3 +29,12 @@
 	classe se encaixa perfeitamente para representar classes DTO, já que seu objetivo é 
 	apenas representar dados que serão recebidos ou devolvidos pela API, sem nenhum tipo 
 	de comportamento.
+	
+=====> Run com migration em modificação	
+		Caso modifique uma migration sem parar o Spring, causará um erro que é resolvido com o 
+	comando: "delete from flyway_schema_history where success = 0;"
+		Caso tenha sido criado tabelas/colunas nesse processo, é preciso apagar o banco e 
+	criá-lo novamente com os comandos: 
+			Excluindo: drop database vollmed_api;
+			Criando: create database vollmed_api;	
+		
