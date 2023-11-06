@@ -1,2 +1,2 @@
-alter table medicos add ativo tinyint not null;
+alter table medicos add ativo tinyint;
 update medicos set ativo = 1;
