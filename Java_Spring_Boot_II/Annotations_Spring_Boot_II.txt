@@ -5,3 +5,4 @@
 @EnableWebSecurity = indica que faremos uma configuração web
 @Bean = usado para exportar uma classe para o Spring, fazendo com que lee consiga carregá-la
 	e realize a sua injeção de dependência em outras classes.
+@Value = usado para pegar a variável dentro de application.properties
