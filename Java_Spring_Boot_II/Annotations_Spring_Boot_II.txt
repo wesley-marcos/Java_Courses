@@ -1,2 +1,7 @@
 @RestControllerAdvice = avisa ao Spring que a classe será para tratamento de exceção
 @ExceptionHandler = especifíca que o método tratará a Exception especifíca
+@Service = representa um serviço dentro do Spring
+@Configuration = indica ao Spring que faremos uma configuração
+@EnableWebSecurity = indica que faremos uma configuração web
+@Bean = usado para exportar uma classe para o Spring, fazendo com que lee consiga carregá-la
+	e realize a sua injeção de dependência em outras classes.
