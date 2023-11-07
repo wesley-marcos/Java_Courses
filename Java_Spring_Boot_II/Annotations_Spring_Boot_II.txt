@@ -1,0 +1,2 @@
+@RestControllerAdvice = avisa ao Spring que a classe será para tratamento de exceção
+@ExceptionHandler = especifíca que o método tratará a Exception especifíca
