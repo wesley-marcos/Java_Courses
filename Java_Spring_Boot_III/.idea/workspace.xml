@@ -80,6 +80,7 @@
       <change beforePath="$PROJECT_DIR$/../Java_Exceptions/java-pilha/src/Fluxo.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_Exceptions/java-pilha/src/MinhaExcecao.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java_Exceptions/java_exceptions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Exceptions/java_exceptions/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Annotations_Spring_Boot_III.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Annotations_Spring_Boot_III.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,9 +93,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2XtVgDUpSoeXh7a6TCHdye8ujT5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -105,7 +106,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/wesley.borges/JavaProjetcs/Java_Courses/Java_Spring_Boot_III/api"
+    "last_opened_file_path": "C:/Users/wesley.borges/JavaProjetcs/Java_Courses/Java_Spring_Boot_III"
   }
 }]]></component>
   <component name="RunManager">

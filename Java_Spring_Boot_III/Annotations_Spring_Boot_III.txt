@@ -1,0 +1,15 @@
+@Query = usado para definirmos a query SQL quando o Spring não conseguir fazer automaticamente ou
+	quando quisermos usar o nome do método em PT-BR	
+
+
+
+Formato do LocalDateTime é "YYYY-MM-DDTHH:MM:SS"
+	O T separa o dia (à esquerda) das horas (direita).
+	
+As classes Controller não devem trazer regras de negócio da aplicação, pois ela só controla
+	o fluxo de execução.
+	
+As classes Service executam as regras de negócio e validações da aplicação:
+	Use Case (Application Service) 
+	Domain Service = possui regras do seu domínio; 
+	Infrastructure Service = usa algum pacote externo para realizar tarefas
