@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c4e4db3-e5a2-45e0-a834-f984e6828bff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java_Collections/java_collections/src/br/com/alura/VectorEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Collections/java_collections/src/br/com/alura/VectorEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/.idea/Curso-Java-parte-4-Entendendo-exce-es-capitulo1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/RemoteSystemsTempFiles/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-encapsulado/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-encapsulado/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-encapsulado/bin/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-encapsulado/bin/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-encapsulado/bin/TesteContas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-encapsulado/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-encapsulado/src/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-encapsulado/src/TesteContas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/bin/CalculadorDeImposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/bin/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/bin/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/bin/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/bin/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/bin/SeguroDeVida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/bin/TesteContas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/bin/TesteTributaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/bin/Tributavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/CalculadorDeImposto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/ContaCorrente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/ContaPoupanca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/SeguroDeVida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/TesteContas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/TesteTributaveis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/Tributavel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado-conta/src/srd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/Administrador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/AutenticacaoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/Autenticavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/ControleBonificacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/Designer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/EditorVideo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/Gerente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/SistemaInterno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/TesteFuncionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/TesteGerente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/TesteReferencias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/bin/TesteSistema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/Administrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/AutenticacaoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/Autenticavel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/ControleBonificacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/Designer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/EditorVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/Gerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/SistemaInterno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/TesteFuncionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/TesteGerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/TesteReferencias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/bytebank-herdado/src/TesteSistema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/java-pilha/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/java-pilha/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/java-pilha/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/java-pilha/src/Fluxo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/java-pilha/src/MinhaExcecao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_Exceptions/java_exceptions/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_Exceptions/java_exceptions/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2XtVgDUpSoeXh7a6TCHdye8ujT5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/wesley.borges/JavaProjetcs/Java_Courses/Java_Spring_Boot_III/api"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="med.voll.api.ApiApplication" />
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="med.voll.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c4e4db3-e5a2-45e0-a834-f984e6828bff" name="Changes" comment="" />
+      <created>1699448471630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699448471630</updated>
+    </task>
+    <servers />
+  </component>
+</project>
