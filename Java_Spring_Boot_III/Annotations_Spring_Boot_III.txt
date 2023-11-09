@@ -1,6 +1,11 @@
 @Query = usado para definirmos a query SQL quando o Spring não conseguir fazer automaticamente ou
 	quando quisermos usar o nome do método em PT-BR	
-
+@DataJpaTest = utilizada para testar uma interface Repository
+@AutoConfigurationTestDatabase(replace= AutoConfigureTestDatabase.Replace.NONE) = eu digo ao Spring
+	para não substituir meu BD oficial por um BD in memory.
+@ActiveProfiles("test") = mostra ao Spring que é pra ele ler o arquivo "application-test.properties".
+@DisplayName("") = usado para especificar o cenário do teste
+@WithMockUser = usado para mockar um usuário (ignora autenticação).
 
 
 Formato do LocalDateTime é "YYYY-MM-DDTHH:MM:SS"
