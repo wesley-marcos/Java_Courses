@@ -1,0 +1,40 @@
+============================================================= COMANDOS DOCKER =========================================================================
+
+====> Baixar uma imagem {
+		$ docker pull [image]
+	}
+	
+====> Mostrar os containers que estão em execução {
+		$ docker ps
+			ou
+		$ docker container ls
+	}
+	
+====> Mostrar os containers existentes {
+		$ docker ps -a
+			ou
+		$ docker container ls -a
+	}
+	
+====> Remove o container existente {
+		$ docker rm [id_do_container]
+	}
+	
+====> Fazendo Mapeamento de portas do host {
+		$ docker run -d -p [porta_que_quero_acessar_pelo_host]:[porta_que_é_acessada_no_container] [nome_da_imagem]
+	}
+
+====> Criando um container com Dockerfile {
+		$ docker build -t {[nome_usuario_dockerhub] / [nome_da_imagem] : [version]} . {o ponto faz parte do comando}
+	}
+
+====> Comandos do Dockerfile {
+		FROM = define qual a imagem que será baixada do DockerHub
+		WORKDIR = define qual a pasta raiz
+		ARG = define que um argumento será passado. PS: somente na CRIAÇÃO DA IMAGEM
+		ENV = envia para o container o argumento passado. PS: passa de fato para o container
+		EXPOSE = mostra a porta que está conectado, no terminal
+		COPY = copia os arquivos do diretório definido para dentro do container
+		RUN = usado para definir um comando à ser executado
+		ENTRYPOINT = comando executado para iniciar o script
+	}
