@@ -1,0 +1,5 @@
+@JsonIgnoreProperties(ignoreUnknown = true) = mapeia apenas os atributos que estão mapeados e ignora o que não estiver no Service.
+
+@JsonAlias = diz ao Spring qual o nome do atributo na API, mas mapeia apenas no GET
+
+@JsonProperty = diz ao Spring qual o nome do atributo na API, mapeia no GET e POST
